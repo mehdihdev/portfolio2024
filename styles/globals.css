@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'LeituraNews';
+  src: url('/fonts/LeituraNews-Roman2.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeituraNews';
+  src: url('/fonts/LeituraNews-Roman4.woff') format('woff');
+  font-weight: 700;
+  font-style: bold;
+}
+@layer base {
+  body {
+    font-family: "LeituraNews", system-ui, sans-serif;
+  }
+}
+:root {
+  --background: #ffffff;
+  --foreground: ##14182C; 
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #14182C;
+    --foreground: #ededed;
+  }
+
+}
+
+.hero {
+  background-color: #1b203a
+}
+.projects {
+  background-color: #31385a
+}
+
+body {
+  @apply font-sans; /* or font-serif */
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  @apply text-5xl;
+  @apply font-bold;
+}
+h2 {
+  @apply text-4xl;
+  @apply font-bold;
+}
+h3 {
+  @apply text-lg;
+  @apply font-bold;
+}
+
+
+
