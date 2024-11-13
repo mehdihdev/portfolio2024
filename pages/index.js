@@ -24,7 +24,7 @@ export default function Home() {
   <h1>Mehdi Hussain</h1>
     <p>First-year Electrical Engineering and Computer Science Student @ <Link className="mr-3 bg-sky-700 hover:bg-sky-500" href="https://berkeley.edu">UC Berkeley</Link></p>
     <p>mehdi [at] mehdi [dot] us</p>
-    <p><Link className="mr-3 bg-sky-700 hover:bg-sky-500" href="/files/resume.pdf">Resume</Link> <Link className="mr-3 bg-sky-700 hover:bg-sky-500" href="https://github.com/mehdihdev">Github</Link> <Link className="mr-3 bg-sky-700 hover:bg-sky-500" href="https://www.linkedin.com/in/mehdihdev">LinkedIn</Link></p>
+    <p><Link className="mr-3 bg-sky-700 hover:bg-sky-500" href="/files/Resume.pdf">Resume</Link> <Link className="mr-3 bg-sky-700 hover:bg-sky-500" href="https://github.com/mehdihdev">Github</Link> <Link className="mr-3 bg-sky-700 hover:bg-sky-500" href="https://www.linkedin.com/in/mehdihdev">LinkedIn</Link></p>
     
   </div>
 
