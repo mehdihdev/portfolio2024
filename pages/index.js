@@ -97,11 +97,19 @@ You can find most of the projects I’ve worked on down below, or also on Linked
     <i class="fa fa-file-text-o"></i> <Link className="mr-3 bg-sky-700 hover:bg-sky-500" href="/files/prostheticpaper2024.pdf">Paper</Link>
   </div>
   <div class="col-span-2">
-    <p>Worked on a year-long research project to develop an EEG prosthetic arm alongside Duke University undergraduates and professor Dr. Megan Madonna using human-centered and engineering design processes to research problems related to the UN Global Goal of Good Health.
-    </p>
+    <p>Worked on a year-long research project to develop an EEG prosthetic arm alongside Duke University undergraduates and professor Dr. Megan Madonna using human-centered and engineering design processes to research problems related to the UN Global Goal of Good Health.</p>
   </div>
 </div>
 
+<div class="grid grid-cols-3 gap-3 pb-7">
+  <div>
+    <h3>NC Hack</h3>
+    <i class="fa fa-github"></i> <Link className="mr-3 bg-sky-700 hover:bg-sky-500" href="https://github.com/NC-Hack/NC-Hack">Github</Link>
+  </div>
+  <div class="col-span-2">
+    <p>During COVID-19, I helped to build a software that hosted Seasonal Hackathons, encouraging 200+ students all across the globe to compete in coding competitions for prizes.</p>
+  </div>
+</div>
 
 </div>
 
